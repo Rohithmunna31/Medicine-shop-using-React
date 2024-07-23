@@ -1,0 +1,29 @@
+/* src/components/MedicineDisplay.css */
+.medicine-display {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .medicine-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .medicine-item span {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .medicine-item input {
+    width: 50px;
+  }
+  
+  .medicine-item button {
+    margin-left: 10px;
+  }
+  
